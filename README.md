@@ -8,7 +8,7 @@ Ipynb files can be uploaded into applications that support python coding environ
 - This project utilized Bert for extractive summarization and T-5 Flan for absractive summarization to accomplish its goals
 - The dataset used is from Kaggle, consisting of movie reviews on 17,000 movies. https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_critic_reviews.csv
 
-Table Of Contents:
+**Table Of Contents:**
 - Import Statements: Import neccessary modules
 - Data Preprocessing: Load in and clean data including a normalization function for the review score and grouping by movie name
 -  Prepare Dataset For Model: Filter out stopwords, embed words
@@ -25,7 +25,7 @@ Table Of Contents:
 - This project utilized a transfered encoder from Resnet 18, a custom decoder, and a classifier head to accomplish its goals
 - The dataset used is from Kaggle, consisting of 60,000 total images. 30,000 are real, 30,000 are ai-generated through DALL-E, stable difussion, etc. https://www.kaggle.com/datasets/tristanzhang32/ai-generated-images-vs-real-images/data
   
-Table Of Contents:
+**Table Of Contents:**
 - Import Library Modules: Import necessary modules
 - Unnormalization: Images will be normalized for use by Resnet 18. This function unnormalize images for visualization
 - Dataset Processing: Image processing included resizing, normalization and creating a combined dataset
